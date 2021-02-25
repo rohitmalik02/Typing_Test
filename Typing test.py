@@ -26,7 +26,7 @@ def test():
         if(elapsed_time > seconds):
             os.system("cls")
             print("Test has ended")
-            print("WPMM: " + str(score)) #imp convert integers to string
+            print("WPM: " + str(score)) #imp convert integers to string
             print("Wrong: " + str(wrong))
             x = input() # dummy input wait so that applicaion doesn't close abruptly
             break
